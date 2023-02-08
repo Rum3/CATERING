@@ -123,7 +123,7 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background:url(../images/home-img.png) no-repeat;
+    background:url(../images/proba.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -147,7 +147,10 @@ section{
     padding:1rem 0;
     color:#eee;
 }
-
+.home .content img{
+    max-width: 22rem;
+    opacity: 0.9;
+}
 
 .about .heading img {
     max-width: 20rem;
@@ -535,4 +538,3 @@ background: rgb(225, 225, 225);
 min-width: 90%;
 min-height: 16rem;
 }
-
